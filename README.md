@@ -1,7 +1,7 @@
 # miniProjet_Docker
 Conténeurisation via docker d'une application simple ayant un front-end php et un back-end en rest API
 
-Ce mini projet a pour but de pratiquer la conténeurisation d'application avec docker, l'objectif était de transformer l'architecture monolithique d'une application en une architectrure en microservices découplée (un container par service), scalable, évolutive et facilement déployable.
+Ce mini projet a pour but de pratiquer la conténeurisation d'application avec docker, l'objectif était de transformer l'architecture monolithique d'une application en une architectrure en microservices découplées (un container par service), scalable, évolutive et facilement déployable.
 
 ETAPES CLES DE LA REALISATION DU PROJET :
 - Conteneurisation de l'API : Construction et test l'image de l'API
