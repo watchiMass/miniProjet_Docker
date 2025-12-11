@@ -21,3 +21,6 @@ ETAPES CLES DE LA REALISATION DU PROJET :
   
   interface grapique du registre
 <img width="1297" height="474" alt="Capture d’écran du 2025-12-11 22-26-05" src="https://github.com/user-attachments/assets/38dd6a2c-1776-44dc-9423-11f8657d399d" />
+
+- schema simplifié :
+<img width="536" height="551" alt="Diagramme sans nom drawio (1)" src="https://github.com/user-attachments/assets/0d9bea75-7dd3-4642-ab19-4d411068eb7a" />
