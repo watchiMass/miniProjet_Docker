@@ -1,0 +1,30 @@
+#Plus tres necessaire mais utile pour la syntaxe 
+version: '3.3'
+services:
+  webapp.student_list:
+    image: php:apache
+    container_name: webapp_student_list
+    depends_on:
+      - api
+    ports:
+        - "80:80"
+    volumes:
+        - ./website/:/var/www/html
+    environment:
+        - USERNAME=toto
+        - PASSWORD=python
+    networks:
+      - pozos_network
+
+  api:
+    image: api:v1.0
+    container_name: api
+    volumes:
+      - './simple_api/:/data/'
+    networks:
+      - pozos_network
+
+networks:
+  pozos_network:
+    name: pozos_network
+    driver: bridge
